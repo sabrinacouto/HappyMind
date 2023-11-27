@@ -171,6 +171,10 @@ line-height: normal;
   height: 2rem;
 }
 
+p{
+  text-align: center;
+}
+
 .list{
   display: flex;
 }
