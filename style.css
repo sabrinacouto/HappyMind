@@ -154,8 +154,6 @@ line-height: normal;
 .box2 ul li {
   display: inline-flex;
   margin-right: 2rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2rem;
 }
 
 .icons{
@@ -163,7 +161,11 @@ line-height: normal;
   justify-content: center;
   align-items: center;
 }
-
+.box2 h3{
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
 .box2 img{
   width: 2rem;
   height: 2rem;
@@ -171,6 +173,12 @@ line-height: normal;
 
 .list{
   display: flex;
+}
+
+.box3 h3{
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 .box ul li {
