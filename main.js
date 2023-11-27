@@ -15,3 +15,17 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+//Função de interatividade com o texto
+
+function showAdditionalText() {
+  const additionalText = document.getElementById("additionalText");
+
+  if (additionalText.classList.contains("hidden")) {
+    additionalText.style.display = "block";
+    additionalText.classList.remove("hidden");
+  } else {
+    additionalText.style.display = "none";
+    additionalText.classList.add("hidden");
+  }
+}

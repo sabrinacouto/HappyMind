@@ -7,7 +7,7 @@
 }
 
 h1{
-    text-align: center;
+    color: #FFF500;
 }
 
 .grids{
@@ -18,17 +18,18 @@ h1{
 
 .cards{
     padding-top: 1.5rem;
-    border-radius: 20px;
+    border-radius: 1.25rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
     border: 2px solid #FFF500;
     background: #FFF;
     gap: 1.5rem;
-    margin: 50px;
-    width: 241px;
+    margin: 3.125rem;
+    width: 18rem;
 }
 
 .icon img{
-    margin-right: 2rem;
-    margin-left: 1rem;
+    margin-right: 1.25rem;
+    margin-left: 2rem;
     width: 2.4rem;
     height: 2.8rem;
 }

@@ -89,6 +89,12 @@ span{
   cursor: pointer;
 }
 
+/* -----------  Interatividade com texto -------------*/
+#additionalText{
+  margin-bottom: 3rem;
+}
+
+
 /* ----------- Services -------------*/
 
 
