@@ -1,3 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Garante que o contêiner ocupe pelo menos a altura total da viewport */
+}
+
 .responsive-container-block {
   min-height: 75px;
   height: fit-content;
