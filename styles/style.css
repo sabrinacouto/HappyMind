@@ -4,14 +4,9 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh; 
 }
 
@@ -68,8 +63,8 @@ span{
 }
 
 .image img{
-  width: 25rem;
-  height: 17rem;
+  width: 26rem;
+  height: 26rem;
 }
 
 .text p {
@@ -77,11 +72,14 @@ span{
 }
 
 
+
 .home {
   display: flex;
   align-items: center;
-  background-image: linear-gradient(180deg, white, #FDFF93);
+  min-height: 50vh;
+  background-image: linear-gradient(180deg, white, #FDFF93, white);
 }
+
 
 .botao {
     background-color: white;
@@ -129,15 +127,17 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-.container .grid{
+
+.grid{
   display:flex;
   justify-content: center;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  min-height: 20vh;
 }
 
 .cards.grid {
 	gap: 1.5rem;
-  margin-bottom: 10rem;
 }
 
 .card {
@@ -161,13 +161,22 @@ line-height: normal;
 	margin-bottom: 0.75rem;
 }
 
+/* ----------- Section do Bonus para os psicólogos-------------*/
+
+.boxBeneficio {
+  display: flex;
+  align-items: center;
+  min-height: 40vh;
+  background-image: linear-gradient(180deg, white, #FDFF93, white);
+  margin-bottom: 4rem;
+}
 
 /* ----------- Rodapé -------------*/
 
-#footer {
+footer {
+  position: relative;
   bottom: 0;
   width: 100%;
-  margin-top: auto;
 }
 
 .box {
@@ -326,3 +335,25 @@ line-height: normal;
     top: -7px;
   }
 }
+
+@media screen and (min-width: 2441px) {
+
+  .image img{
+    width: 70rem;
+    height: 48rem;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  
+  .home{
+    padding-left: 5vh;
+  }
+ 
+  }

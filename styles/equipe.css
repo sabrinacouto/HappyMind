@@ -1,14 +1,13 @@
 
 /* -----------  Equipe -------------*/
 .container{
+    display: flex;
     padding-top: 5rem;
     text-align: center;
+    justify-content: center;
     align-items: center;
 }
 
-h1{
-    color: #FFF500;
-}
 
 .grids{
     display: flex;
